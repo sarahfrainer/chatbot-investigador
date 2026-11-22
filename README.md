@@ -28,7 +28,8 @@ O projeto tem duas partes:
 | Carga do Excel no SQLite (`src/carga.py`) | feito |
 | Notebook 01: exploração do banco | feito |
 | Notebook 02: região e população do IBGE | feito |
-| Notebook 03: análise de padrões | planejado |
+| Notebook 03: variação mensal, rankings por taxa e correlações | feito |
+| Notebook 04: clusterização e detecção de atípicos | planejado |
 | Camada GenAI (text-to-SQL) | planejado |
 | Avaliação com cerca de 20 perguntas de referência | planejado |
 | Demo no Hugging Face Spaces (Gradio) | planejado |
@@ -45,7 +46,8 @@ chat-investigador/
 │       └── crimes.db                             banco SQLite (gerado, fora do Git)
 ├── notebooks/
 │   ├── exploracao_01.ipynb                       tamanho, eventos, nulos, cobertura, homônimos
-│   └── populacao_02.ipynb                        região, população e primeiras taxas
+│   ├── populacao_02.ipynb                        região, população e primeiras taxas
+│   └── padroes_03.ipynb                          variação mensal, rankings e correlações
 ├── src/
 │   └── carga.py                                  lê o Excel, limpa e grava a tabela ocorrencias
 └── README.md
